@@ -39,7 +39,7 @@ app.post("/", function(req,res){
 
     const options = {
         method: "POST",
-        auth: "andrewkyle92:053a015a9015d43209b75555b2053265-us10"
+        auth: "andrewkyle92:55e2c2d6ceb8d033f1df4abfe30d1d32-us10"
     }
 
     const request = https.request(url, options, function(response){
@@ -72,7 +72,7 @@ app.listen(process.env.PORT || 3004, function(){
 
 
 //API Key
-//053a015a9015d43209b75555b2053265-us10
+//55e2c2d6ceb8d033f1df4abfe30d1d32-us10
 
 //listID
 //1e3be4cf19
