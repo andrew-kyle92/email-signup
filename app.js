@@ -66,7 +66,7 @@ app.post("/failure", function(req,res){
 
 
 
-app.listen(3004, function(){
+app.listen(process.env.PORT || 3004, function(){
     console.log("Server running on port 3004.");
 });
 
